@@ -1,4 +1,5 @@
-## 23637351_NguyenVanNam_Cabsystem
+# CAB SYSTEMS
+
 ## Vấn đề hiện tại là gì
 
 >Vấn đề của bài toán là Công ty ABC hiện đang gặp nhiều hạn chế trong việc quản lý và vận hành dịch vụ đặt xe. Quy trình đặt xe và phân công tài xế còn phụ thuộc nhiều vào thao tác thủ công, khiến việc tìm tài xế phù hợp mất thời gian, khó tối ưu và dễ xảy ra sai sót. Khách hàng cũng chưa có khả năng theo dõi đầy đủ trạng thái chuyến đi, thông tin tài xế, thời gian dự kiến đến và kết quả thanh toán. Bên cạnh đó, dữ liệu khách hàng, tài xế, chuyến đi và giao dịch chưa được quản lý tập trung, gây khó khăn cho nhân viên vận hành trong việc giám sát, xử lý sự cố và lập báo cáo. 
@@ -38,3 +39,14 @@ quadrantChart
     "Tài xế": [0.85, 0.30]
     "Nhân viên vận hành": [0.75, 0.40]
     "Bộ phận CSKH": [0.65, 0.25]
+```
+
+## 🏢 Các Đơn vị kinh doanh & Bộ phận (Business Units)
+
+| Tên Business Unit / Bộ phận | Vai trò và Chức năng chính trong hệ thống |
+| :--- | :--- |
+| **Khối Vận hành (Operations Unit)** | • Quản lý và giám sát toàn bộ hoạt động đặt xe hằng ngày.<br>• Theo dõi trạng thái tài xế, chuyến đi đang diễn ra.<br>• Xử lý các sự cố phát sinh (hủy chuyến, tranh chấp, lỗi điều phối). |
+| **Khối Kinh doanh & Phát triển (Business Development Unit)** | • Quản lý chiến lược phát triển mạng lưới khách hàng và tài xế.<br>• Đưa ra các chính sách giá cước, chương trình khuyến mãi, ưu đãi.<br>• Phân tích hiệu quả kinh doanh dựa trên báo cáo doanh thu và tỷ lệ hoàn thành chuyến. |
+| **Khối Hỗ trợ Khách hàng / CSKH (Customer Support Unit)** | • Tiếp nhận và giải quyết khiếu nại, thắc mắc từ phía Khách hàng và Tài xế.<br>• Hỗ trợ xử lý các vấn đề liên quan đến thanh toán thất bại, sự cố chuyến đi. |
+| **Khối Tài chính - Kế toán (Finance & Accounting Unit)** | • Đối soát giao dịch, dòng tiền giữa hệ thống, tài xế và nhà cung cấp thanh toán.<br>• Kiểm tra doanh thu, chiết khấu hoa hồng và quản lý tài chính doanh nghiệp. |
+| **Khối Công nghệ & Quản trị Hệ thống (IT & Admin Unit)** | • Quản trị hệ thống lõi, cấu hình phân quyền và bảo mật dữ liệu.<br>• Quản lý thông tin tài khoản người dùng, tài xế và phương tiện.<br>• Tích hợp các bên thứ ba (Cổng thanh toán, Dịch vụ thông báo). |
